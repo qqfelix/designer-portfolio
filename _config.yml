@@ -4,8 +4,8 @@ email: railser.felix@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   Freelance web designer and developer, specialising in Jekyll,
   HTML, CSS and Javascript
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "/designer-portfolio/" # the subpath of your site, e.g. /blog/
+url: "http://qqfelix.github.io/designer-portfolio" # the base hostname & protocol for your site
 twitter_username: qqfelix
 github_username:  qqfelix
 
@@ -20,6 +20,6 @@ links:
       url: /articles
     - title: hire me
       url: /hire-me
-      
+
 # Build settings
 markdown: kramdown
