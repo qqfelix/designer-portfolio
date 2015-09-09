@@ -1,0 +1,25 @@
+# Site settings
+title: Design Portfolio
+email: railser.felix@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+  Freelance web designer and developer, specialising in Jekyll,
+  HTML, CSS and Javascript
+baseurl: "/designer-portfolio" # the subpath of your site, e.g. /blog/
+url: "http://qqfelix.github.io/designer-portfolio" # the base hostname & protocol for your site
+twitter_username: qqfelix
+github_username:  qqfelix
+
+
+permalink: /:categories/:title
+links:
+    - title: about
+      url: /About
+    - title: work
+      url: /work
+    - title: articles
+      url: /articles
+    - title: hire me
+      url: /hire-me
+
+# Build settings
+markdown: kramdown
